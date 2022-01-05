@@ -1,0 +1,88 @@
+body {
+  background-color: #f4f6fb;
+}
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 440px;
+}
+
+.stat-card .stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.08);
+}
+
+.class-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.class-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(16, 24, 40, 0.12);
+}
+
+.class-card .card-header {
+  background: linear-gradient(135deg, #0d6efd 0%, #6f42c1 100%);
+  color: #fff;
+  min-height: 88px;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.join-code {
+  font-family: SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.2em;
+}
+
+.gradebook th:first-child,
+.gradebook td:first-child {
+  position: sticky;
+  left: 0;
+  background: #fff;
+  z-index: 1;
+  min-width: 180px;
+}
+
+.gradebook th {
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Bootstrap 5.1 has no fw-semibold utility */
+.fw-semibold {
+  font-weight: 600 !important;
+}

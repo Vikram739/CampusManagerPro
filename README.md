@@ -1,6 +1,6 @@
 # CampusManagerPro
 
-A homework platform for schools. Teachers create classes, post assignments and grade student work. Students join classes with a code, upload their solutions from a dashboard and track their grades.
+A homework platform for schools. Teachers create classes, post assignments and grade student work. Students join classes with a code, upload their solutions from a dashboard and track their grades
 
 ## Features
 
